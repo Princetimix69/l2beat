@@ -88,7 +88,7 @@ const timeLimitOutputRootSubmissionSeconds = discovery.getContractValue<number>(
 )
 const portal = discovery.getContract('OptimismPortal')
 const l2OutputOracle = discovery.getContract('L2OutputOracle')
-const explorerUrl = 'https://explorer.zircuit.com'
+const explorerUrl = 'https://explorer.zircuit.com/'
 
 const zircuitProgramHashes = []
 zircuitProgramHashes.push(
